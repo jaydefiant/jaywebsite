@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	background-color: #FFFFFF;
+	text-align: center;
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+	border: medium groove #F3630D;
+}
+a:link {
+	text-decoration: none;
+	color: #BD4B05;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	color: #811A0B;
+}
+a:active {
+	text-decoration: none;
+}
+h1 {
+	color: #6E0001;
+}
+h2 {
+	color: #BD4B05;
+}
+h3 {
+	color: #C26600;
+}
+h4 {
+	color: #E94102;
+}
+body {
+	background-image: url(Images/Background.jpg);
+}
+body,td,th {
+	color: #C26600;
+}
+#container {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	background-color: #E2D6C1;
+	height: 1000px;
+	width: 800px;
+	border: thin solid #000000;
+}
+#container2 {
+	background-image: url(Images/Background.jp);
+	background-repeat: repeat;
+	float: left;
+	height: 300px;
+	width: 215px;
+	border: thin solid #000000;
+	right: auto;
+}
